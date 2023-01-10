@@ -1,0 +1,88 @@
+.input-content{
+    background-color: rgb(106, 166, 176);
+    padding: 10px 10px;
+    border:1px solid rgb(133, 177, 185);
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgb(106, 149, 144);
+    text-align: center;
+
+
+}
+.input-box label{
+    padding-left: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+}
+.input-number{
+    margin:8px 0;
+}
+
+.input-detail{
+    margin:8px 0;
+
+}
+
+.input-date{
+    margin-top: 3px;
+    border:1px solid #fff ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(102, 112, 114);
+
+}
+.select-box{
+    margin-top: 5px;
+}
+.select-box select{
+    margin-top: 7px;
+    border:1px solid #fff ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(102, 112, 114);
+}
+
+.button-box{
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.button {
+    transition-duration: 0.2s;
+
+    border-color: #fff;
+    border-radius: 4px;
+    border-style: groove;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+    font-weight: bolder;
+    margin: 5px 5px;
+    padding: 5px; 
+    color: rgb(233, 245, 244);
+    text-decoration: none;
+    margin-right: 20px;
+    background-color: rgb(106, 166, 176);
+    color: white;
+}
+
+
+
+    /* border:1px solid #fff ;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bolder;
+    color: rgb(106, 166, 176); */
+
+  
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(153, 197, 197);
+    border-radius: 4px;
+}
+

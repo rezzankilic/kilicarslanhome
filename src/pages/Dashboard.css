@@ -1,0 +1,88 @@
+.dashboard {
+    max-width: 100%;
+    background-color: rgb(229, 215, 243);
+    display: flex;
+    height: 100vh;
+
+}
+@media (min-width: 600px){
+    .dashboard .dashboard-box {
+    width: 65%;
+    height: 75%;
+    margin: 10px 30px;
+
+}
+}
+
+.delete-button{
+    display: flex;
+    position: relative;
+}
+
+.delete-button p{
+    margin-top: 5px;
+}
+
+.delete-button button{
+   position:absolute;
+   top:2px;
+   right: 2px;
+   transition-duration: 0.2s;
+
+    border-color: #fff;
+    border-radius: 4px;
+    border-style: groove;
+    
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+    font-weight: bolder;
+    color: rgb(233, 245, 244);
+    text-decoration: none;
+    background-color:rgb(169, 143, 173);
+    color: white;
+
+    box-shadow: 0 0 5px rgb(165, 144, 168);
+    
+}
+.delete-button button:hover {
+    cursor: pointer;
+    background-color: rgb(172, 156, 189);
+    border-radius: 4px;
+}
+@media (min-width: 600px){
+    .dashboard .income{
+        width: 25%;
+        height: 75%;
+        max-height: 600px;
+        margin-top: 100px;
+}
+}
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(12, 12, 12);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    
+}
+
+.list-item {
+    border: 1px solid #fff;
+    padding-left: 20px;
+    border-radius: 4px;
+    background-color:rgb(169, 143, 173);
+    
+
+  }
+  
+
+
+.income-big{
+    font-size: large;
+}
+.list .date{
+    font-size: x-small;
+    margin:2px 0;
+}

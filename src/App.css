@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  background: rgb(220, 218, 218);
+  border-radius: 4px;
+  width:100%;
+  
+
+}
+ 
+.App .container{
+  flex-grow: 1;
+  padding: 0 0px;
+}
+
